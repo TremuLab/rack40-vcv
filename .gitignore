@@ -1,0 +1,9 @@
+build/
+dist/
+plugin.dylib
+plugin.so
+plugin.dll
+tests/control-test
+tests/rack-test
+
+tests/configuration-test

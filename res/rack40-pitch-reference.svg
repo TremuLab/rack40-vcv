@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 100">
+<rect x="0.5" y="0.5" width="89" height="99" rx="5" fill="#151613" stroke="#55574d"/>
+<rect x="12" y="6.0" width="66" height="11" rx="1" fill="#dfdac8" stroke="#767568" stroke-width=".5"/>
+<rect x="12" y="17.5" width="66" height="11" rx="1" fill="#dfdac8" stroke="#767568" stroke-width=".5"/>
+<rect x="12" y="29.0" width="66" height="11" rx="1" fill="#dfdac8" stroke="#767568" stroke-width=".5"/>
+<rect x="12" y="40.5" width="66" height="11" rx="1" fill="#dfdac8" stroke="#767568" stroke-width=".5"/>
+<rect x="12" y="52.0" width="66" height="11" rx="1" fill="#dfdac8" stroke="#767568" stroke-width=".5"/>
+<rect x="12" y="63.5" width="66" height="11" rx="1" fill="#dfdac8" stroke="#767568" stroke-width=".5"/>
+<rect x="12" y="75.0" width="66" height="11" rx="1" fill="#dfdac8" stroke="#767568" stroke-width=".5"/>
+<rect x="12" y="13.0" width="38" height="7.5" rx="1" fill="#24271f" stroke="#111" stroke-width=".5"/>
+<rect x="12" y="24.5" width="38" height="7.5" rx="1" fill="#24271f" stroke="#111" stroke-width=".5"/>
+<rect x="12" y="47.5" width="38" height="7.5" rx="1" fill="#24271f" stroke="#111" stroke-width=".5"/>
+<rect x="12" y="59.0" width="38" height="7.5" rx="1" fill="#24271f" stroke="#111" stroke-width=".5"/>
+<rect x="12" y="70.5" width="38" height="7.5" rx="1" fill="#24271f" stroke="#111" stroke-width=".5"/>
+<text x="45" y="94" text-anchor="middle" font-family="monospace" font-size="5.5" fill="#b9b5a6">12-TET REFERENCE</text></svg>

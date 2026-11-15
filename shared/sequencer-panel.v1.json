@@ -1,0 +1,16 @@
+{
+  "format": "rack40-sequencer-panel",
+  "version": 1,
+  "width": 660,
+  "height": 380,
+  "columns": 8,
+  "rows": 4,
+  "firstX": 42,
+  "columnSpacing": 80,
+  "firstY": 144,
+  "rowSpacing": 44,
+  "stepPortOffset": 27,
+  "toolbarY": 74,
+  "pagesY": 106,
+  "ioY": 344
+}

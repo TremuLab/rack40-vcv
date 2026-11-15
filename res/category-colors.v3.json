@@ -1,0 +1,283 @@
+{
+  "format": "rack40-category-colors",
+  "version": 3,
+  "categories": {
+    "drive": "Drive",
+    "modulation": "Modulation",
+    "time": "Time-Based",
+    "frequency": "Frequency & Filter",
+    "pitch": "Pitch-Based",
+    "dynamics": "Dynamic & Volume",
+    "cabinet": "Cabinet & Speaker",
+    "sampling": "Looping, Sampling & Granular"
+  },
+  "palette": {
+    "drive": {
+      "dark": "#FF5A4E",
+      "light": "#E51200"
+    },
+    "modulation": {
+      "dark": "#A98BFF",
+      "light": "#794BFF"
+    },
+    "frequency": {
+      "dark": "#FF9A3C",
+      "light": "#B35600"
+    },
+    "pitch": {
+      "dark": "#F27FC4",
+      "light": "#D1198C"
+    },
+    "dynamics": {
+      "dark": "#86D46B",
+      "light": "#3D8225"
+    },
+    "cabinet": {
+      "dark": "#CDB896",
+      "light": "#936843"
+    },
+    "sampling": {
+      "dark": "#EBD452",
+      "light": "#806F0D"
+    },
+    "delay": {
+      "dark": "#3CCFCF",
+      "light": "#1E7B7B"
+    },
+    "reverb": {
+      "dark": "#4F8DFF",
+      "light": "#0F65FF"
+    },
+    "neutral": {
+      "dark": "#8E8C86",
+      "light": "#6B6964"
+    }
+  },
+  "modules": {
+    "Aliaser": {
+      "family": "drive",
+      "label": "Drive",
+      "accent": "drive"
+    },
+    "All Pass Filter": {
+      "family": "frequency",
+      "label": "Frequency & Filter",
+      "accent": "frequency"
+    },
+    "Audio Balance": {
+      "family": "dynamics",
+      "label": "Dynamic & Volume",
+      "accent": "dynamics"
+    },
+    "Audio Mixer": {
+      "family": "dynamics",
+      "label": "Dynamic & Volume",
+      "accent": "dynamics"
+    },
+    "Audio Panner": {
+      "family": "dynamics",
+      "label": "Dynamic & Volume",
+      "accent": "dynamics"
+    },
+    "Bit Crusher": {
+      "family": "drive",
+      "label": "Drive",
+      "accent": "drive"
+    },
+    "Buffer Delay": {
+      "family": "time",
+      "label": "Time-Based",
+      "accent": "delay"
+    },
+    "CV Delay": {
+      "family": "time",
+      "label": "Time-Based",
+      "accent": "delay"
+    },
+    "Cabinet Sim": {
+      "family": "cabinet",
+      "label": "Cabinet & Speaker",
+      "accent": "cabinet"
+    },
+    "Chorus": {
+      "family": "modulation",
+      "label": "Modulation",
+      "accent": "modulation"
+    },
+    "Compressor": {
+      "family": "dynamics",
+      "label": "Dynamic & Volume",
+      "accent": "dynamics"
+    },
+    "Delay Line": {
+      "family": "time",
+      "label": "Time-Based",
+      "accent": "delay"
+    },
+    "Delay w/Mod": {
+      "family": "time",
+      "label": "Time-Based",
+      "accent": "delay"
+    },
+    "Diffuser": {
+      "family": "time",
+      "label": "Time-Based",
+      "accent": "reverb"
+    },
+    "Env Filter": {
+      "family": "frequency",
+      "label": "Frequency & Filter",
+      "accent": "frequency"
+    },
+    "Env Follower": {
+      "family": "dynamics",
+      "label": "Dynamic & Volume",
+      "accent": "dynamics"
+    },
+    "Flanger": {
+      "family": "modulation",
+      "label": "Modulation",
+      "accent": "modulation"
+    },
+    "Fuzz": {
+      "family": "drive",
+      "label": "Drive",
+      "accent": "drive"
+    },
+    "Gate": {
+      "family": "dynamics",
+      "label": "Dynamic & Volume",
+      "accent": "dynamics"
+    },
+    "Ghostverb": {
+      "family": "time",
+      "label": "Time-Based",
+      "accent": "reverb"
+    },
+    "Granular": {
+      "family": "sampling",
+      "label": "Looping, Sampling & Granular",
+      "accent": "sampling"
+    },
+    "Hall Reverb": {
+      "family": "time",
+      "label": "Time-Based",
+      "accent": "reverb"
+    },
+    "Looper": {
+      "family": "sampling",
+      "label": "Looping, Sampling & Granular",
+      "accent": "sampling"
+    },
+    "Multi Filter": {
+      "family": "frequency",
+      "label": "Frequency & Filter",
+      "accent": "frequency"
+    },
+    "OD & Distortion": {
+      "family": "drive",
+      "label": "Drive",
+      "accent": "drive"
+    },
+    "Phaser": {
+      "family": "modulation",
+      "label": "Modulation",
+      "accent": "modulation"
+    },
+    "Ping Pong Delay": {
+      "family": "time",
+      "label": "Time-Based",
+      "accent": "delay"
+    },
+    "Pitch Detector": {
+      "family": "pitch",
+      "label": "Pitch-Based",
+      "accent": "pitch"
+    },
+    "Pitch Shifter": {
+      "family": "pitch",
+      "label": "Pitch-Based",
+      "accent": "pitch"
+    },
+    "Plate Reverb": {
+      "family": "time",
+      "label": "Time-Based",
+      "accent": "reverb"
+    },
+    "Reverb Lite": {
+      "family": "time",
+      "label": "Time-Based",
+      "accent": "reverb"
+    },
+    "Reverse Delay": {
+      "family": "time",
+      "label": "Time-Based",
+      "accent": "delay"
+    },
+    "Ring Modulator": {
+      "family": "modulation",
+      "label": "Modulation",
+      "accent": "modulation"
+    },
+    "Room Reverb": {
+      "family": "time",
+      "label": "Time-Based",
+      "accent": "reverb"
+    },
+    "SV Filter": {
+      "family": "frequency",
+      "label": "Frequency & Filter",
+      "accent": "frequency"
+    },
+    "Sampler": {
+      "family": "sampling",
+      "label": "Looping, Sampling & Granular",
+      "accent": "sampling"
+    },
+    "Tone Control": {
+      "family": "frequency",
+      "label": "Frequency & Filter",
+      "accent": "frequency"
+    },
+    "Tremolo": {
+      "family": "modulation",
+      "label": "Modulation",
+      "accent": "modulation"
+    },
+    "Univibe": {
+      "family": "modulation",
+      "label": "Modulation",
+      "accent": "modulation"
+    },
+    "VCA": {
+      "family": "dynamics",
+      "label": "Dynamic & Volume",
+      "accent": "dynamics"
+    },
+    "Vibrato": {
+      "family": "modulation",
+      "label": "Modulation",
+      "accent": "modulation"
+    },
+    "Bit Modulator": {
+      "family": "drive",
+      "label": "Drive",
+      "accent": "drive"
+    },
+    "Audio Multiply": {
+      "family": "dynamics",
+      "label": "Dynamic & Volume",
+      "accent": "dynamics"
+    },
+    "Stereo Spread": {
+      "family": "modulation",
+      "label": "Modulation",
+      "accent": "modulation"
+    }
+  },
+  "fallback": "Neutral accent with existing role label for unassigned, unknown and imported types.",
+  "decisions": {
+    "Vibrato": "Modulation primary accent; Pitch-Based secondary browsing tag.",
+    "CV Delay": "Time-Based browsing exception; official ZOIA category remains CV."
+  }
+}
