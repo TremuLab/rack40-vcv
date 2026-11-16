@@ -1,6 +1,25 @@
-# Rack40 native VCV Rack interface
+# Rack40 for VCV Rack
 
-Part of the same project as the standalone editor. Build against the official matching VCV Rack 2 SDK:
+**Build ZOIA patches like a modular synth inside VCV Rack.**
+
+Rack40 is a visual patch-building interface for Empress ZOIA and Euroburo
+hardware. Each Rack40 module represents a corresponding ZOIA module. Arrange
+and connect them in VCV Rack, then export the patch for compilation and SD-card
+transfer to the hardware. Rack40 also includes optional live MIDI control for a
+compatible patch already loaded on ZOIA.
+
+ZOIA remains the audio-processing engine. Rack40 does not emulate ZOIA DSP, and
+its module jacks are not intended to connect to ordinary Rack DSP modules. ZOIA
+or Euroburo hardware is required.
+
+![Rack40 modules in VCV Rack](docs/images/rack40-vcv.png)
+
+Download the Apple Silicon beta and read the installation instructions at the
+[Rack40 for VCV Rack website](https://zoia-rack-lab.pages.dev/vcv/).
+
+## Building from source
+
+Build against the official matching VCV Rack 2 SDK:
 
 ```
 python3 tools/generate_catalog.py
