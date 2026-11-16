@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.3.1
+
+- Adds VCV Library URLs, the Rack40 support address, and VCV Rack 2.6.6 as the
+  minimum supported version.
+- Links module descriptions to the official ZOIA documentation.
+- Expands installation, troubleshooting, and first-patch instructions.
+
 ## 2.3.0
 
 - Synchronizes 740 ZOIA configurations and panel layouts, including firmware

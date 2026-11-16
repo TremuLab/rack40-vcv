@@ -28,7 +28,7 @@ RACK_DIR=/path/to/Rack-SDK bash scripts/check-native.sh
 
 The SDK integration harness creates an isolated Rack engine and a recording-only MIDI driver; it never sends to physical devices. The harness uses Rack's internal Engine constructor only to stand up that test environment. Production code uses public module, model, MIDI and engine-access APIs. The public source includes the complete plugin build and catalog-generation inputs.
 
-The reviewed direct-download build is `dist/Rack40-2.3.0-mac-arm64.vcvplugin`. It targets Apple Silicon Mac and VCV Rack 2.6.6; other platforms require their own matching SDK build or a VCV Library build.
+The reviewed direct-download build is `dist/Rack40-2.3.1-mac-arm64.vcvplugin`. It targets Apple Silicon Mac and VCV Rack 2.6.6; other platforms require their own matching SDK build or a VCV Library build.
 
 ## Known host issue: open menus during patch replacement
 

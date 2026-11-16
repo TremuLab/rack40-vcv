@@ -1,6 +1,6 @@
 {
   "name": "Rack40 for VCV Rack public source candidate",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "scope": "native VCV plugin only",
   "contents": "complete native plugin source, generator inputs, documentation, and licenses"
 }

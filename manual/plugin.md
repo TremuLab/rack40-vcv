@@ -23,4 +23,5 @@ VCV patch. VCV Rack 2.6.6 can leave a menu attached to a removed module; this
 host behavior also reproduces with a stock module.
 
 See [Installation](installation.md), [Create ZOIA patches](authoring.md),
-and [Live Control](Live.md).
+and [Live Control](Live.md). For individual ZOIA module descriptions, see the
+[official documentation](https://docs.google.com/spreadsheets/d/1a9q2OCo_Sd_IbWsH99wlFvjcTIN20e7wb5Qgn5fLxms/edit?gid=729380617#gid=729380617).

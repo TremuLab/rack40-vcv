@@ -3,6 +3,9 @@
 Rack40 modules represent ZOIA modules, parameters, and connections.
 They do not process audio in VCV Rack.
 
+For module descriptions, see the
+[official ZOIA documentation](https://docs.google.com/spreadsheets/d/1a9q2OCo_Sd_IbWsH99wlFvjcTIN20e7wb5Qgn5fLxms/edit?gid=729380617#gid=729380617).
+
 1. Add Rack40 modules from VCV Rack's module browser.
 2. Right-click a module and choose **Module configuration** when you need a
    different ZOIA configuration.

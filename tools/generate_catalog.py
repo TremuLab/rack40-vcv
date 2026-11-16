@@ -14,11 +14,16 @@ panels = runpy.run_path(str(ROOT / "tools/panel_layouts.py"))["generate"]()
 manifest = {
     "slug": "Rack40",
     "name": "Rack40",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "license": "GPL-3.0-only",
     "brand": "Rack40",
     "author": "Rack40 contributors",
-    "authorEmail": "hellobanjoroll@gmail.com",
+    "authorEmail": "tremulations@gmail.com",
+    "pluginUrl": "https://zoia-rack-lab.pages.dev/vcv/",
+    "manualUrl": "https://zoia-rack-lab.pages.dev/vcv/manual/",
+    "sourceUrl": "https://github.com/TremuLab/rack40-vcv",
+    "changelogUrl": "https://zoia-rack-lab.pages.dev/vcv/release-notes/",
+    "minRackVersion": "2.6.6",
     "description": "Virtual ZOIA patch building and live MIDI control; no ZOIA DSP emulation.",
     "modules": [{
         "slug": "Live",
@@ -41,7 +46,12 @@ for configuration in registry["configurations"]:
         "slug": configuration["id"],
         "name": configuration["type"] if not hidden else configuration["name"] + " / " + configuration["id"],
         "hidden": hidden,
-        "description": "ZOIA patch module (not audio DSP). " + configuration["description"],
+        "description": (
+            "For module descriptions, see official documentation: "
+            "https://docs.google.com/spreadsheets/d/"
+            "1a9q2OCo_Sd_IbWsH99wlFvjcTIN20e7wb5Qgn5fLxms/"
+            "edit?gid=729380617#gid=729380617"
+        ),
         "tags": ["External", "Utility"],
     })
 

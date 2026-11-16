@@ -1,5 +1,15 @@
 # Rack40 native changelog
 
+## 2.3.1
+
+- Adds Rack40 website, manual, source, changelog, support contact, and minimum
+  Rack version metadata for VCV Library submission.
+- Replaces copied module-description prose with a single link to the official
+  ZOIA module documentation.
+- Expands Apple Silicon installation, troubleshooting, and first-patch
+  instructions for new VCV Rack users.
+- Contains no DSP, MIDI, patch-format, or module-identity changes from 2.3.0.
+
 ## 2.3.0
 
 - Synchronizes the native catalog, panel layouts, parameters, and sockets with all 740 shared ZOIA configurations, including firmware 5.40 MIDI Pitch Bend Out and MIDI Pressure Out.
