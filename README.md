@@ -12,8 +12,6 @@ ZOIA remains the audio-processing engine. Rack40 does not emulate ZOIA DSP, and
 its module jacks are not intended to connect to ordinary Rack DSP modules. ZOIA
 or Euroburo hardware is required.
 
-![Rack40 modules in VCV Rack](docs/images/rack40-vcv.png)
-
 Download the Apple Silicon beta and read the installation instructions at the
 [Rack40 for VCV Rack website](https://zoia-rack-lab.pages.dev/vcv/).
 
