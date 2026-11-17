@@ -1,10 +1,10 @@
 # Rack40 for VCV Rack
 
-**Build ZOIA patches like a modular synth inside VCV Rack.**
+**Build ZOIA patches like a modular synth inside Rack.**
 
 Rack40 is a visual patch-building interface for Empress ZOIA and Euroburo
 hardware. Each Rack40 module represents a corresponding ZOIA module. Arrange
-and connect them in VCV Rack, then export the patch for compilation and SD-card
+and connect them in Rack, then export the patch for compilation and SD-card
 transfer to the hardware. Rack40 also includes optional live MIDI control for a
 compatible patch already loaded on ZOIA.
 
@@ -17,7 +17,7 @@ Download the Apple Silicon beta and read the installation instructions at the
 
 ## Building from source
 
-Build against the official matching VCV Rack 2 SDK:
+Build against the official matching Rack 2 SDK:
 
 ```
 python3 tools/generate_catalog.py
@@ -45,11 +45,11 @@ RACK_DIR=/path/to/Rack-SDK bash scripts/check-native.sh
 
 The SDK integration harness creates an isolated Rack engine and a recording-only MIDI driver; it never sends to physical devices. The harness uses Rack's internal Engine constructor only to stand up that test environment. Production code uses public module, model, MIDI and engine-access APIs. The public source includes the complete plugin build and catalog-generation inputs.
 
-The reviewed direct-download build is `dist/Rack40-2.3.1-mac-arm64.vcvplugin`. It targets Apple Silicon Mac and VCV Rack 2.6.6; other platforms require their own matching SDK build or a VCV Library build.
+The reviewed direct-download build is `dist/Rack40-2.3.1-mac-arm64.vcvplugin`. It targets Apple Silicon Mac and Rack 2.6.6; other platforms require their own matching SDK build or a Library build.
 
 ## Known host issue: open menus during patch replacement
 
-On VCV Rack Free 2.6.6 for macOS ARM64, loading another patch while a module context menu is open can leave the old menu attached to a deleted module. Hovering its **Info** submenu can crash Rack. This was reproduced with VCV's stock **Blank** module in a separate profile without Rack40 installed. An exact-value parameter menu also crashed during replacement in Rack40 testing; that parameter-specific case has not been separately reproduced with a stock module.
+On Rack Free 2.6.6 for macOS ARM64, loading another patch while a module context menu is open can leave the old menu attached to a deleted module. Hovering its **Info** submenu can crash Rack. This was reproduced with the stock **Blank** module in a separate profile without Rack40 installed. An exact-value parameter menu also crashed during replacement in Rack40 testing; that parameter-specific case has not been separately reproduced with a stock module.
 
 **Workaround:** close module, parameter, and cable menus with **Escape** or a click on empty rack space before opening a different patch.
 
